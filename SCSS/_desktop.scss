@@ -1,0 +1,49 @@
+@include desktop {
+	.header {
+		background-image: url(/images/bg-hero-desktop.svg);
+
+		&__container {
+			// max-width: 90%;
+			// margin: 0 auto;
+			padding: 3em 0 0 0;
+		}
+	}
+
+	.header__nav .nav__button {
+		font-size: 1rem;
+	}
+
+	.container {
+		display: flex;
+	}
+
+	.hero {
+		margin: 6em 0;
+	}
+
+	.hero__heading,
+	.hero__paragraph {
+		text-align: left;
+		// padding: 0 12em 0 0;
+	}
+
+	.hero__heading {
+		font-size: 2rem;
+		padding: 0 5em 0 0;
+	}
+
+	.hero__paragraph {
+		font-size: 1rem;
+		padding: 0 4em 0 0;
+	}
+	.hero__cta {
+		font-size: 0.7rem;
+		margin: 0;
+		padding: 1.2em 3em;
+		max-width: 25%;
+	}
+
+	.hero__image {
+		max-width: 54%;
+	}
+}
