@@ -350,7 +350,53 @@ a {
             flex-direction: row-reverse;
   }
   .cta {
+    max-width: 50%;
+  }
+  .contact__logo {
+    margin-left: 10rem;
+  }
+  .contact__container {
+    margin: 0;
+  }
+  .contact__container:nth-child(2) {
+    margin: 1.5em 0;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .contact__col1 {
+    max-width: 30%;
+    justify-self: flex-start;
+  }
+  .contact__col2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0;
     max-width: 40%;
+  }
+  .left__list {
+    margin-right: 8rem;
+  }
+  .social {
+    display: block;
+    margin: 0;
+    padding: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .copywrite {
+    text-align: right;
+    margin-right: 3rem;
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
