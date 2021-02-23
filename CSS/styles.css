@@ -169,8 +169,8 @@ a {
   max-width: 90%;
   text-align: center;
   border-radius: 1em;
-  -webkit-box-shadow: -1px -9px 5px -8px #b8c0c6;
-          box-shadow: -1px -9px 5px -8px #b8c0c6;
+  -webkit-box-shadow: 0px 5px 15px -5px #394047;
+          box-shadow: 0px 5px 15px -5px #394047;
   padding: 0 0 1em 0;
   position: absolute;
   top: -5em;
@@ -321,6 +321,36 @@ a {
   }
   .hero__image {
     max-width: 54%;
+  }
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card__image {
+    max-width: 35%;
+  }
+  .card__text {
+    text-align: left;
+    margin-left: 4em;
+  }
+  .card .card__paragraph {
+    max-width: 70%;
+    font-size: 1rem;
+    margin: 1em 0 0 0;
+  }
+  .card-1,
+  .card-3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .cta {
+    max-width: 40%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -46,4 +46,31 @@
 	.hero__image {
 		max-width: 54%;
 	}
+
+	.card {
+		display: flex;
+		align-items: center;
+
+		&__image {
+			max-width: 35%;
+		}
+
+		&__text {
+			text-align: left;
+			margin-left: 4em;
+		}
+	}
+	.card .card__paragraph {
+		max-width: 70%;
+		font-size: 1rem;
+		margin: 1em 0 0 0;
+	}
+	.card-1,
+	.card-3 {
+		flex-direction: row-reverse;
+	}
+
+	.cta {
+		max-width: 40%;
+	}
 }
