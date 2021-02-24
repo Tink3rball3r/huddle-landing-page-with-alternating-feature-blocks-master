@@ -61,7 +61,7 @@ a {
   background-color: var(--paleCyan);
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 42.5rem;
+  height: 100vh;
   margin: 0 0 4em 0;
 }
 
