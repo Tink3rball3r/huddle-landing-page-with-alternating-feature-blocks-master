@@ -262,6 +262,7 @@ a {
   color: var(--white);
   padding: 3px;
   border: 1px solid var(--white);
+  cursor: pointer;
 }
 
 .social i:nth-child(2) {
@@ -272,7 +273,7 @@ a {
   height: 1em;
   width: 1em;
   padding: 0.4em;
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   border-radius: 50%;
 }
 
@@ -281,6 +282,20 @@ a {
   color: var(--white);
   text-align: center;
   padding: 0 0 3em 0;
+}
+
+.button:hover,
+.nav__button:hover {
+  opacity: 0.8;
+}
+
+i:hover,
+.circle-icon:hover {
+  color: var(--pink);
+}
+
+.list__items:hover {
+  border-bottom: 1px solid var(--white);
 }
 
 @media (min-width: 66.67rem) {
